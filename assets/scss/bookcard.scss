@@ -1,0 +1,23 @@
+@import './mixins.scss';
+@import './variables.scss';
+
+.book-card {
+    border: 1px solid $verde-oscuro;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .book-image {
+    width: 100px;
+    height: 200px;
+    border-radius: 8px;
+  }
+
+  @media (min-width: $ipad-breakpoint) {
+    .book-card {
+        flex: 0 1 calc(50% - 100px); 
+      }
+  }

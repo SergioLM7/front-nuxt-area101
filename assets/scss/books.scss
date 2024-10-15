@@ -1,0 +1,55 @@
+@import './mixins.scss';
+@import './variables.scss';
+
+h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.books-section {
+    @include column;
+    @include centered-content;
+}
+
+
+.bookcard-section {
+    display: flex; // Asegúrate de que esta sección sea un contenedor flex
+    flex-wrap: wrap; // Permitir que los elementos se envuelvan
+
+    @include centered-content;
+}
+
+.button-link {
+    background-color: $verde;
+    border-radius: 10px;
+    padding: 2px;
+    width: 45%;
+    color: black;
+
+    :hover {
+        background-color: $verde-oscuro;
+        @include shadow($verde-oscuro);
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    &>a {
+        color: black;
+        text-decoration: none;
+
+        :hover {
+            font-size: 200px;
+        }
+    }
+}
+
+@media (min-width: $ipad-breakpoint) {
+    .button-link {
+        max-width: 300px;
+    }
+   .bookcard-section {
+    justify-content: center; // Alineación centrada
+
+   }
+}
