@@ -1,10 +1,18 @@
-# Nuxt 3 Minimal Starter
+# Front Nuxt 3 - Books - Area101 technical interview
+<a href="https://front-nuxt-area101.vercel.app" target="_blank" align="center"/> <img src="./src/assets/bannerpokemon.jpg" alt="banner readme"/></a> 
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## About the project
+**Link**: https://front-nuxt-area101.vercel.app
 
-## Setup
+## Installation
+Clone the repository:
 
-Make sure to install the dependencies:
+```
+git clone https://github.com/SergioLM7/front-nuxt-area101/
+
+```
+
+Install the dependencies:
 
 ```bash
 # npm
@@ -37,39 +45,3 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
