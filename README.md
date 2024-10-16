@@ -1,5 +1,5 @@
 # Front Nuxt 3 - Books - Area101 technical interview
-<a href="https://front-nuxt-area101.vercel.app" target="_blank" align="center"/> <img src="./src/assets/bannerpokemon.jpg" alt="banner readme"/></a> 
+<a href="https://front-nuxt-area101.vercel.app" target="_blank" align="center"/> <img src="./public/images/defaultInteriorBanner.jpg" alt="banner readme"/></a> 
 
 ## About the project
 **Link**: https://front-nuxt-area101.vercel.app
