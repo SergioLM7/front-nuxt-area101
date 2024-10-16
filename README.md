@@ -37,6 +37,8 @@ yarn install
 bun install
 ```
 
+Change fetch url in pages/books-list.vue to: http://127.0.0.1:8000/api/books/
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
@@ -54,3 +56,10 @@ yarn dev
 # bun
 bun run dev
 ```
+
+## Contact
+
+**Sergio Lillo, Full Stack Developer**
+<a href="https://www.linkedin.com/in/lillosergio/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" width=30px, height=30px/></a> - sergiolillom@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
