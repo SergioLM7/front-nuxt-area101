@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
+      title: 'The Books Project',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
