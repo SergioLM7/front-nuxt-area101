@@ -17,7 +17,7 @@
 <script setup>
 
 const { data: books, pending, error } = await useAsyncData('books', () => 
-  $fetch(`${process.env.API_URL}/books/`)
+  $fetch(`http://127.0.0.1:8000/api/books/`)
 )
 
 </script>
