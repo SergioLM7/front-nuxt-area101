@@ -2,8 +2,12 @@
 <a href="https://front-nuxt-area101.vercel.app" target="_blank" align="center"/> <img src="./public/images/defaultInteriorBanner.jpg" alt="banner readme"/></a> 
 
 ## About the project
-**Link**: https://front-nuxt-area101.vercel.app
 This full responsive website offers a landing page and a Top 10 best sellers books page where you can find a list of the most popular books in Spain. You can interact with each of them, as their covers are interactive and redirects you to Amazon site if you want to buy them.
+
+**Deployment version, on Vercel**: https://front-nuxt-area101.vercel.app
+
+**Link to the Django API Rest**: https://django-area101.onrender.com/
+
 
 ### Built With
 
