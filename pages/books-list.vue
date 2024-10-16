@@ -17,7 +17,7 @@
 <script setup>
 
 const { data: books, pending, error } = await useAsyncData('books', () => 
-  $fetch(`http://127.0.0.1:8000/api/books/`)
+  $fetch(`https://django-area101.onrender.com/api/books/`)
 )
 
 </script>
