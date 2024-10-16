@@ -4,13 +4,16 @@
 .app-class {
   @include column;
   @include centered-content;
+  width: 100%;
 }
+
 .main-banner {
     @include centered-content;
     width: 100%;
     height: 200px;
     background-size: cover; 
     background-image: url('/images/defaultInteriorBanner.jpg'); 
+    margin-bottom: 10px;
   }
   
   h1 {

@@ -9,12 +9,13 @@ h2 {
 .books-section {
     @include column;
     @include centered-content;
+    margin-top: 0px;
 }
 
 
 .bookcard-section {
-    display: flex; // Asegúrate de que esta sección sea un contenedor flex
-    flex-wrap: wrap; // Permitir que los elementos se envuelvan
+    display: flex; 
+    flex-wrap: wrap; 
 
     @include centered-content;
 }
@@ -25,6 +26,7 @@ h2 {
     padding: 2px;
     width: 45%;
     color: black;
+    margin-bottom: 15px;
 
     :hover {
         background-color: $verde-oscuro;

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class = "werlcome-container">
         <article class="welcome-article">
             <h3>Welcome to your home!</h3>
             <p> Here you will find the top-10 best-sellers books in Spain</p>
