@@ -3,6 +3,15 @@
 
 ## About the project
 **Link**: https://front-nuxt-area101.vercel.app
+This full responsive website offers a landing page and a Top 10 best sellers books page where you can find a list of the most popular books in Spain. You can interact with each of them, as their covers are interactive and redirects you to Amazon site if you want to buy them.
+
+### Built With
+
+* <img src="https://github.com/devicons/devicon/blob/master/icons/nuxtjs/nuxtjs-original.svg" title="Nuxt" alt="Nuxt" width="40" height="40"/>&nbsp;
+* <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg"  title="SASS" alt="SASS" width="40" height="40"/>&nbsp;
+* <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+* <img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original-wordmark.svg" title="postman" alt="postman" width="40" height="40"/>&nbsp;
+* <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="github" alt="github" width="40" height="40"/>&nbsp;
 
 ## Installation
 Clone the repository:
