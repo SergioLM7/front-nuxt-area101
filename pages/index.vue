@@ -3,7 +3,7 @@
         <article class="welcome-article">
             <h3>Welcome to your home!</h3>
             <p> Here you will find the top-10 best-sellers books in Spain</p>
-            <button class="button-link"><NuxtLink to="/books">Click here to discover more!</NuxtLink></button>
+            <button class="button-link"><NuxtLink to="/books-list">Click here to discover more!</NuxtLink></button>
         </article>
     </div>
 </template>

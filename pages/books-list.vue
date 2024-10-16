@@ -17,11 +17,11 @@
 <script setup>
 
 const { data: books, pending, error } = await useAsyncData('books', () => 
-    $fetch('http://127.0.0.1:8000/api/books/')
-);
+  $fetch('http://127.0.0.1:8000/api/books/')
+)
 
 </script>
 
 <style lang="scss">
-@import '~/assets/scss/books.scss';
+@import '~/assets/scss/books-list.scss';
 </style>
